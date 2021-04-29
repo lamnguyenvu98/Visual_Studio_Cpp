@@ -40,9 +40,7 @@ public:
 				string value2 = value.substr(1, value.length() - 1);
 				b = stoi(value2);
 			}
-			if (value[0] != 'i')
-				a = stoi(value);
-			
+			else a = stoi(value);
 		}
 	}
 };
